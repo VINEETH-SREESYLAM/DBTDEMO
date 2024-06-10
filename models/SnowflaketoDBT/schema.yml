@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: snowflake_card
+    description: Data from snowpipe table
+    database: TRANSACTION
+    schema: CARD
+    tables:
+      - name: CARD
